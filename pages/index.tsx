@@ -3,12 +3,12 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className="max-w-sm border-2 border-red-200 relative h-24">
+    <div className="min-h-400 flex justify-center items-center">
       <Head>
         <title>React Footballi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      asds
+      <div>Welcome! please click on a tab in footer</div>
     </div>
   );
 };
